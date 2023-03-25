@@ -10,5 +10,16 @@ const gymData = [
     },
     location: "USA",
   },
+  {
+    id: 2,
+    title: "Gym training with Robert",
+    price: "80$",
+    img: "./images/gym.jpg",
+    stats: {
+      rating: "5.0",
+      reviewCount: "~(20)",
+    },
+    location: "Ro",
+  },
 ];
 export default gymData;

@@ -47,28 +47,22 @@ section {
     margin-top: 0;
 }
 
+.card--image {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 1 ease;
+    flex-shrink: 0;
+}
+
+.card:hover .card--image {
+    transform: translateX(-20%);
+}
+
 .card {
 
-    font-size: 30pxpx;
-    font-family: Arial, Helvetica, sans-serif;
-}
+    font-size: 15px;
 
-.card--image {
-
-    width: 100%;
-    display: flex;
-    border-radius: 9px;
-}
-
-.card--stats {
-    display: flex;
-    align-items: center;
-}
-
-.card--star {
-    height: 20px;
-}
-
-.bold {
-    font-weight: bold;
 }
